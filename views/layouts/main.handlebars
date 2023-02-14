@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Text on Colour!</title>
+  <link rel="shortcut icon" href="">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/media-queries.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0//css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/farbtastic/farbtastic.css" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-wrapper #212121 grey darken-4">
+        <ul class="left hide-on-med-and-down">
+        </ul>
+        <a href="/" class="brand-logo center"><span class="grad1">AI Colour Picker</span></a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="/api/neuralNet"><i class="material-icons">view_module</i></a>
+          </li>
+        </ul>
+        <ul id="searchbar" class="dropdown-content">
+
+        </ul>
+      </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="/images/background.png">
+          </div>
+          <a href="/">
+            <h5><strong>AI Colour Picker</strong></h5>
+          </a>
+          <br><br>
+        </div>
+      </li>
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">cloud</i>About This Project</div>
+          <div class="collapsible-body">
+            <a class="waves-effect" href="/about/process">Application Process</a>
+            <a class="waves-effect" href="/about/development">Motivation for Development</a>
+            <a class="waves-effect" href="/about/design">Design Process</a>
+            <a class="waves-effect" href="/about/future">Furture Developments</a>
+          </div>
+        </li>
+      </ul>
+      <li><a href="/back-end"><i class="material-icons">build</i>Back-end Structure</a></li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li><a class="subheader">Artificial Intelligence Picker</a></li>
+      <li><a class="waves-effect" href="/colourpicker">Train the AI!<i class="material-icons">edit</i></a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger left"><i class="material-icons">menu</i></a>
+  </header>
+  <main>
+    {{{ body }}}
+  </main>
+
+  <footer class="page-footer #212121 grey darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="grad1">AI Colour Picker</h5>
+          <p class="grad1">AI Colour Picker is an user-fed artificial intelligence application that differentiates
+            between white and black text on a given background colour.</p>
+          <br>
+          <p class="grad1">Special Thanks to <a href="https://github.com/arjitkhullar" alt="Arjit's GitHub" class="githubLink grey-text text-lighten-3">Arjit</a>
+            and <a href="https://github.com/robertleeplummerjr" alt="Robert's GitHub" class="githubLink grey-text text-lighten-3">Robert</a>
+            for making this project possible!</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+
+          <ul>
+            <li><a class="grey-text text-lighten-3 githubLink" href="https://github.com/kalieshapickering/text-on-colour"><strong>GitHub
+                  Repo</strong></a></li>
+            <li><a class="grey-text text-lighten-3 githubLink" href="https://arv433.github.io/Responsive-Portfolio/">Arvin's
+                Portfolio</a></li>
+            <li><a class="grey-text text-lighten-3 githubLink" href="https://kalieshapickering.github.io/Bootstrap-Portfolio/">Kaliesha's
+                Portfolio</a></li>
+            <li><a class="grey-text text-lighten-3 githubLink" href="#!">Gaby's Portfolio</a></li>
+            <li><a class="grey-text text-lighten-3 githubLink" href="#!">Jon's Portfolio</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright #000000 black">
+      <div class="container">
+        Coded with ♡ by Arvin, Kaliesha, Gaby &amp; Jon </div>
+    </div>
+  </footer>
+
+  <!-- components -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script type="text/javascript" src="/javascript/app.js"></script>
+</body>
+
+</html>

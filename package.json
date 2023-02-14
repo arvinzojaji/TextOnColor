@@ -1,0 +1,40 @@
+{
+  "name": "text-on-colour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalieshapickering/text-on-colour.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalieshapickering/text-on-colour/issues"
+  },
+  "homepage": "https://github.com/kalieshapickering/text-on-colour#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "brain.js": "^1.4.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.41.0",
+    "sequelize-cli": "^5.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "eslint": "^5.7.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-mocha": "^5.2.0",
+    "eslint-plugin-prettier": "^2.7.0",
+    "prettier": "^1.14.3"
+  }
+}
